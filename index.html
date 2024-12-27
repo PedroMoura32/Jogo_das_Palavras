@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Digitação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-div">
+        <!-- Imagem associada à palavra -->
+        <div id="image-container">
+            <img id="word-image" src="" alt="Imagem da palavra" />
+        </div>
+    </div>
+    <div class="container">
+        <!-- Área do jogo -->
+        <div class="game-container">
+            <h1>Jogo de Digitação</h1>
+            <!-- Botões para seleção de tema -->
+            <div class="theme-buttons">
+                <button class="theme-btn" data-theme="animais">Animais</button>
+                <button class="theme-btn" data-theme="objetos">Objetos</button>
+                <button class="theme-btn" data-theme="lugares">Lugares</button>
+            </div>
+            <!-- Imagem associada à palavra 
+            <div id="image-container">
+                <img id="word-image" src="" alt="Imagem da palavra" />
+            </div> -->
+            <!-- Palavra para digitação -->
+            <p class="word" id="word">Escolha um tema para começar!</p>
+            <input type="text" id="inputBox" placeholder="Digite aqui..." disabled />
+            <p class="feedback" id="feedback"></p>
+        </div>
+        <!-- Área de digitação livre -->
+        <div class="free-text-container">
+            <h2>Digitação Livre</h2>
+            <textarea id="freeText" placeholder="Digite o que quiser..."></textarea>
+        </div>
+    </div>
+    <audio id="successSound" src="sounds/success.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
