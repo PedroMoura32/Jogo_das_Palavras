@@ -9,7 +9,7 @@ const wordImage = document.getElementById("word-image");
 const themes = {
     animais: [
         "CACHORRO", "GATO", "ELEFANTE", "PASSARINHO", "PEIXE",
-        "LEÃO", "TIGRE", "GIRAFA", "COELHO", "CROCODILO",
+        "LEAO", "TIGRE", "GIRAFA", "COELHO", "CROCODILO",
         "MACACO", "PINGUIM", "URSO", "COBRA", "BORBOLETA"
     ],
     objetos: [
