@@ -20,7 +20,7 @@ const themes = {
     lugares: [
         "ESCOLA", "PRAIA", "PARQUE", "MERCADO", "IGREJA",
         "HOSPITAL", "BIBLIOTECA", "CINEMA", "RESTAURANTE", "AEROPORTO",
-        "MUSEU", "ESTADIO", "ZOOLÓGICO", "FLoresta", "MONTAÑA"
+        "MUSEU", "ESTADIO", "ZOOLOGICO", "FLORESTA"
     ]
 };
 
