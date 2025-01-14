@@ -7,10 +7,23 @@ const wordImage = document.getElementById("word-image");
 
 // Dicionário de temas e palavras
 const themes = {
-    animais: ["CACHORRO", "GATO", "ELEFANTE", "PASSARINHO", "PEIXE"],
-    objetos: ["CADEIRA", "MESA", "LIVRO", "CANETA", "CELULAR"],
-    lugares: ["ESCOLA", "PRAIA", "PARQUE", "MERCADO", "IGREJA"]
+    animais: [
+        "CACHORRO", "GATO", "ELEFANTE", "PASSARINHO", "PEIXE",
+        "LEÃO", "TIGRE", "GIRAFA", "COELHO", "CROCODILO",
+        "MACACO", "PINGUIM", "URSO", "COBRA", "BORBOLETA"
+    ],
+    objetos: [
+        "CADEIRA", "MESA", "LIVRO", "CANETA", "CELULAR",
+        "COMPUTADOR", "RELOGIO", "GARRAFA", "CHAVE", "OCULOS",
+        "GUITARRA", "BICICLETA", "CAMERA", "LAMPADA", "MOCHILA"
+    ],
+    lugares: [
+        "ESCOLA", "PRAIA", "PARQUE", "MERCADO", "IGREJA",
+        "HOSPITAL", "BIBLIOTECA", "CINEMA", "RESTAURANTE", "AEROPORTO",
+        "MUSEU", "ESTADIO", "ZOOLÓGICO", "FLoresta", "MONTAÑA"
+    ]
 };
+
 
 let currentTheme = []; // Armazena as palavras do tema atual
 let currentWordIndex = 0; // Índice da palavra atual
